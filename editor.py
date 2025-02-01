@@ -22,7 +22,8 @@ class Editor:
             'decor' : load_images('tiles/decor'),
             'grass' : load_images('tiles/grass'),
             'large_decor' : load_images('tiles/large_decor'),
-            'stone' : load_images('tiles/stone')
+            'stone' : load_images('tiles/stone'),
+            'spawners': load_images('tiles/spawners')
 
         }
         self.tilemap = TileMap(self)
@@ -34,8 +35,6 @@ class Editor:
             print("Got it")
         except FileNotFoundError:
             pass
-
-        
 
         self.scroll = [0, 0]
 
@@ -134,6 +133,8 @@ class Editor:
                         self.movement[3] = True
                     if event.key == pygame.K_g:
                         self.ongrid = not self.ongrid
+                    if event.key == pygame.K_t:
+                        self.tilemap.autotile()
                     if event.key == pygame.K_o:
                         self.tilemap.save('map.json')
                     if event.key == pygame.K_LSHIFT:
