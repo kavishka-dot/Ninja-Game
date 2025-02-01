@@ -14,6 +14,7 @@ Developed a simple platformer game using Python, NumPy, and Pygame. This project
 - Python
 - NumPy
 - Pygame
+- JSON
 
 ## Purpose
 This project was undertaken to strengthen my knowledge of fundamental programming concepts and improve my proficiency in game development.
