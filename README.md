@@ -1,6 +1,5 @@
 ## Ninja-Game
-
-![image](https://github.com/user-attachments/assets/50002f70-59b2-47da-9a2e-0a77d3fb284a)
+![image](https://github.com/user-attachments/assets/50f6b776-2885-4330-84b0-26df405405dd)
 
 ## A Simple Platformer Game
 
