@@ -1,5 +1,7 @@
 ## Ninja-Game
 
+![image](https://github.com/user-attachments/assets/50002f70-59b2-47da-9a2e-0a77d3fb284a)
+
 ## A Simple Platformer Game
 
 ## Overview
@@ -21,6 +23,7 @@ This project was undertaken to strengthen my knowledge of fundamental programmin
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
 
 
 
